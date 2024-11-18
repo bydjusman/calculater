@@ -7,7 +7,8 @@ const Footer: React.FC = () => {
         <h2 className="text-2xl font-semibold">Thanks for Visiting!</h2>
         <p className="mt-2">Feel the sea breeze and enjoy the waves 🌊</p>
       </div>
-      <div className="absolute bottom-0 left-0 w-full">
+      {/* Removed absolute positioning and added padding to avoid overlap */}
+      <div className="w-full">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1440 320"
